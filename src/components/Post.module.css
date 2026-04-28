@@ -18,7 +18,10 @@
   font-size: 14px;
   color: #555;
   line-height: 1.5;
+  margin-bottom: 10px;
 }
+
+/* INPUT */
 .input {
   width: 100%;
   padding: 8px;
@@ -27,9 +30,61 @@
   font-size: 14px;
   outline: none;
   transition: 0.2s;
+  margin-bottom: 10px;
 }
 
 .input:focus {
   border-color: #888;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+/* BUTTON בסיסי */
+.button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: #ccc;
+}
+
+/* קבוצת כפתורים */
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* כפתור שמירה */
+.buttonSave {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.buttonSave:hover {
+  background-color: #43a047;
+}
+
+/* כפתור ביטול */
+.buttonCancel {
+  background-color: #f44336;
+  color: white;
+}
+
+.buttonCancel:hover {
+  background-color: #e53935;
+}
+.editSection {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
